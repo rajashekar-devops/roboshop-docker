@@ -22,7 +22,7 @@ services:
   rabbitmq:
     image: rabbitmq:3
     container_name: rabbitmq
-    volumes: # -v rabbitmq:/var/lib/rabbitmq
+    volumes: # -v rabbitmq:/var/lib/rabbitm
     - rabbitmq:/var/lib/rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: roboshop
